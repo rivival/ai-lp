@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('frieren.jpg') no-repeat center center/cover;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#hero .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+#hero .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+#hero .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+#hero .btn-outline-light:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.bg-primary {
+    background-color: #0d6efd !important;
+}
+
+.text-primary {
+    color: #0d6efd !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+/* Feature boxes */
+#features .p-4 {
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+#features .p-4:hover {
+    transform: translateY(-5px);
+}
+
+/* Icons for features */
+.bi { /* Bootstrap Icons */
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+/* Ensure icons are aligned in the center */
+#features .col-md-4 .p-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Testimonials */
+#testimonials .blockquote-footer {
+    color: #6c757d;
+}
